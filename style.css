@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+
+button{
+  
+  border: 3px solid ;
+  
+  margin: 7px;
+}
+
+.container{
+  width: 850px;
+  height: 100vh;
+  max-height: 745px;
+  margin: 0 auto;
+ background-image: url('img/back.jpg'); 
+background-repeat: no-repeat;
+background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  color: azure;
+}
+
+h2{
+  font-size: 25px;
+  text-align: center;
+  padding: 18px;
+  color: azure;
+}
+
+#result{
+ text-align: center;
+ 
+ color: rgb(13, 255, 13);
+}
+
+#result img{
+  width: 17%;
+}
+
+#start-text{
+  font-size: 24px;
+  padding: 18px;
+}
+
+#group-btn{
+  display: flex;
+  width: 100%;
+}
+
+#group-btn > button > img{
+  width: 100%;
+}
+
+#bullrich{
+  border: 3px solid   rgb(241,216,84); 
+  background: linear-gradient(90deg, rgba(241,216,84,1) 1%, rgba(238,163,69,1) 20%, rgba(238,44,129,1) 43%, rgba(179,35,238,1) 68%, rgba(0,212,255,1) 100%);
+}
+
+#macri{
+  border: 3px solid   rgb(241,216,84); 
+  background: linear-gradient(90deg, rgba(241,216,84,1) 1%, rgba(238,163,69,1) 20%, rgba(238,44,129,1) 43%, rgba(179,35,238,1) 68%, rgba(0,212,255,1) 100%);
+}
+
+#cristina{
+  border: 4px solid    rgb(84,235,241);
+  background: linear-gradient(90deg, rgb(250, 255, 255) 1%, rgb(255, 255, 255) 100%);
+}
+
+#milei{
+  border: 3px solid   rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(255, 255, 0) 1%, rgb(255, 255, 37) 51%, rgba(0,0,0,1) 100%);
+}
+
+#myriam{
+  border: 3px solid   rgb(255, 0, 0);
+  background: linear-gradient(90deg, rgb(255, 0, 0) 1%, rgb(255, 0, 0) 51%, rgb(255, 0, 0) 100%);
+}
+
